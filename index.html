@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thissss is an Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Lets talk about Interactive Web Page</h1>
+    <button id="themeToggle">CLICK to save your eyes from my GLORY</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>How far can you count</h2>
+      <p>Click the button to increase the count!</p>
+      <p id="countDisplay">0</p>
+      <button id="countBtn">+1</button>
+      <P>I know you liked that do it one more time for all times sake. Interesting right?</P>
+    </section>
+
+    <section>
+      <h2>FAQ</h2>
+      <div class="faq">
+        <button class="faq-question">Who is clive?</button>
+        <p class="faq-answer">clive is a just a boy from gatundu-north kiambu.</p>
+      </div>
+      <div class="faq">
+        <button class="faq-question">OMG? why is he so smart</button>
+        <p class="faq-answer">Because he studied wed dev from plp-africa programme. You should do it too broo.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Sign Up Form</h2>
+      <form id="signupForm" novalidate>
+        <label>
+          Name:
+          <input type="text" id="name">
+          <span class="error" id="nameError"></span>
+        </label>
+        <br>
+        <label>
+          Email:
+          <input type="text" id="email">
+          <span class="error" id="emailError"></span>
+        </label>
+        <br>
+        <label>
+          Password:
+          <input type="password" id="password">
+          <span class="error" id="passwordError"></span>
+        </label>
+        <br>
+        <button type="submit">Submit</button>
+        <p id="formMessage"></p>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
